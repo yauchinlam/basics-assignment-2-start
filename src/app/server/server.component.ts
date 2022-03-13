@@ -12,4 +12,10 @@ export class ServerComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  deleteUsername()
+  {
+    this.userName = "";
+  }
+
 }
